@@ -146,7 +146,7 @@ def whatsapp():
 
 def perform():
 
-    #wishMe()
+    wishMe()
     while True:
 
         command = takeCommand().lower()
