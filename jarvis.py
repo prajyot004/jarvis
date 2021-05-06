@@ -70,7 +70,7 @@ def whatsapp():
         hour = int(takeCommand())
         speak('tell me the minutes')
         minutes = int(takeCommand())
-        pywhatkit.sendwhatmsg("+919326545595",msg,hour,minutes,20)
+        pywhatkit.sendwhatmsg("""Enter the number of target""",msg,hour,minutes,20)
         speak('sir, message is now sending please wait!')
 
     elif 'pooja' in name or 'puja' in name:
@@ -81,7 +81,7 @@ def whatsapp():
         hour = int(takeCommand())
         speak('tell me the minutes')
         minutes = int(takeCommand())
-        pywhatkit.sendwhatmsg("+918424074993",msg,hour,minutes,20)
+        pywhatkit.sendwhatmsg("""Enter the number of target""",msg,hour,minutes,20)
         speak('sir, message is now sending please wait!')
 
     elif 'pradeep' in name or 'Pradip' in name:
@@ -92,7 +92,7 @@ def whatsapp():
         hour = int(takeCommand())
         speak('tell me the minutes')
         minutes = int(takeCommand())
-        pywhatkit.sendwhatmsg("+917304090923",msg,hour,minutes,20)
+        pywhatkit.sendwhatmsg("""Enter the number of target""",msg,hour,minutes,20)
         speak('sir, message is now sent!')
 
     elif 'rohit' in name:
@@ -103,7 +103,7 @@ def whatsapp():
         hour = int(takeCommand())
         speak('tell me the minutes')
         minutes = int(takeCommand())
-        pywhatkit.sendwhatmsg("+919167690040",msg,hour,minutes,10)
+        pywhatkit.sendwhatmsg("""Enter the number of target""",msg,hour,minutes,10)
         speak('sir, message is now sent!')
 
     if 'rahul' in name:
@@ -114,7 +114,7 @@ def whatsapp():
         hour = int(takeCommand())
         speak('tell me the minutes')
         minutes = int(takeCommand())
-        pywhatkit.sendwhatmsg("+918898726788",msg,hour,minutes,10)
+        pywhatkit.sendwhatmsg("""Enter the number of target""",msg,hour,minutes,10)
         speak('sir, message is now sent!')
     
     if 'gaurav' in name:
@@ -125,7 +125,7 @@ def whatsapp():
         hour = int(takeCommand())
         speak('tell me the minutes')
         minutes = int(takeCommand())
-        pywhatkit.sendwhatmsg("+919167950567",msg,hour,minutes,10)
+        pywhatkit.sendwhatmsg("""Enter the number of target""",msg,hour,minutes,10)
         speak('sir, message is sent now!')
 
     if 'unknown' in name:
