@@ -1,5 +1,5 @@
 To run the jarvis properly. You should install some python libraries.
-list of libraries .
+list of libraries are as follows:
 pip install pyttsx3
 pip install speechrecognition
 pip install datetime
